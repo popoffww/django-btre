@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
@@ -131,5 +132,5 @@ STATICFILES_DIRS = [
 ]
 
 
-STATIC_ROOT = BASE_DIR / 'media'
-STATIC_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'
